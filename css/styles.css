@@ -566,8 +566,8 @@ img {
   background-color: var(--ctas-links-color);
 }
 
-.portfolio-overlay:hover .overlay,
-.portfolio-overlay:focus .overlay {
+.portfolio-item:hover .overlay,
+.portfolio-item:focus .overlay {
   transform: translateY(0%);
 }
 
@@ -755,7 +755,7 @@ img {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition-delay: 250ms;
+  /* transition-delay: 250ms; */
 }
 
 .backdrop.is-hidden .modal {
